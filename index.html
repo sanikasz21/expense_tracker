@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Expense Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="container">
+            <h1>Personal Expense Tracker</h1>
+            <nav>
+                <ul>
+                    <li><a href="#dashboard">Dashboard</a></li>
+                    <li><a href="#categories">Categories</a></li>
+                    <li><a href="#transactions">Transactions</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Cards Section -->
+        <section id="cards" class="section">
+            <div class="container">
+                <h2>Summary</h2>
+                <div class="cards-grid">
+                    <div class="card">
+                        <h3>Total Income</h3>
+                        <p class="amount">5,00000</p>
+                    </div>
+                    <div class="card">
+                        <h3>Total Expenses</h3>
+                        <p class="amount">3,2000</p>
+                    </div>
+                    <div class="card">
+                        <h3>Balance</h3>
+                        <p class="amount">1,80000</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Categories Section -->
+        <section id="categories" class="section">
+            <div class="container">
+                <h2>Expense Categories</h2>
+                <ul class="categories-list">
+                    <li>Food & Dining</li>
+                    <li>Transportation</li>
+                    <li>Entertainment</li>
+                    <li>Utilities</li>
+                    <li>Healthcare</li>
+                    <li>Miscellaneous</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Transactions Section -->
+        <section id="transactions" class="section">
+            <div class="container">
+                <h2>Recent Transactions</h2>
+                <table class="transactions-table">
+                    <thead>
+                        <tr>
+                            <th>Date</th>
+                            <th>Description</th>
+                            <th>Category</th>
+                            <th>Amount</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>2025-10-01</td>
+                            <td>Grocery Shopping</td>
+                            <td>Food & Dining</td>
+                            <td>-25000</td>
+                        </tr>
+                        <tr>
+                            <td>2025-10-02</td>
+                            <td>Gas Station</td>
+                            <td>Transportation</td>
+                            <td>-50000</td>
+                        </tr>
+                        <tr>
+                            <td>2025-10-03</td>
+                            <td>Salary</td>
+                            <td>Income</td>
+                            <td>+2,0000</td>
+                        </tr>
+                        <tr>
+                            <td>2024-10-04</td>
+                            <td>Movie Tickets</td>
+                            <td>Entertainment</td>
+                            <td>-300</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Personal Expense Tracker. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
